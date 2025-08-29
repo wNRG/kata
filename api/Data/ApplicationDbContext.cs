@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using kata.api.Models;
 
-namespace kata.api.Models
+namespace kata.api.Data
 {
     public class ApplicationDbContext : DbContext
     {
